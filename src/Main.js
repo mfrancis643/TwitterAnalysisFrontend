@@ -71,9 +71,9 @@ class Main extends Component {
         let url = "";
         let urlParameter = this.state.twitterData;
         if (isNaN(urlParameter))
-            url = "http://ec2-34-247-107-79.eu-west-1.compute.amazonaws.com/getTimeline/" + urlParameter;
+            url = "http://ec2-52-209-255-27.eu-west-1.compute.amazonaws.com/getTimeline/" + urlParameter;
         else
-            url = "http://ec2-34-247-107-79.eu-west-1.compute.amazonaws.com/getReplies/" + urlParameter;
+            url = "http://ec2-52-209-255-27.eu-west-1.compute.amazonaws.com/getReplies/" + urlParameter;
         axios.get(url)
 
             .then(response => {
