@@ -1,0 +1,115 @@
+body{
+  background-color: #DAEDFC;
+  font-family: Arial;
+  height: 100%;
+}
+
+html, body{
+  padding: 0;
+  margin: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+}
+
+h3{
+  color:#254E70;
+  font-size: 18px;
+}
+
+.headBanner{
+  background-color:#38A1F3;
+  height: 70px;
+  width: 100%;
+}
+
+.menuBanner{
+  height: 30px;
+  background-color: #38A1F3;
+  float: left;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.bannersContainer{
+  height: auto;
+}
+
+.logoContainer{
+  height: calc(100% - 16px);
+  padding: 8px;
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.logoWriting{
+  height: 100%;
+}
+
+.spacerMargin{
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  background-color: #A4D4F9;
+}
+
+.score{
+  font-weight: 400;
+  font-size: 30px;
+
+}
+
+#root{
+  height: calc(100% - 70px);
+}
+
+.content{
+  height: auto;
+  flex-grow: 1;
+}
+
+
+.twitterFeed{
+  font-size: 18px;
+  background-color:#DAEDFC;
+  height: 100%;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  overflow: scroll;
+}
+
+.base{
+  height: auto;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 100%;
+  color: #787878;
+  font-size: 18px;
+}
+
+.tweet{
+  padding:5px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.tweetModal{
+}
+
+.alert{
+  color: red;
+  font-weight: 600;
+}
